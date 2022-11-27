@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --hauteur-menu: 60px;
+  }
+  * {margin: 0px;
+    padding: 0px;
+    font-family:Roboto, Montserrat, sans-serif;}
+
+    nav {width: 100%;
+    font-size: 18px;
+    position: sticky;
+    top: 0;}
+  
+    nav > ul {
+    display: flex;
+    text-align: center;
+    height: var(--hauteur-menu);}
+  
+    nav ul {list-style-type: none;}
+ 
+    nav > ul > li {background-color: rgb(60, 60, 60);
+    position: relative;
+    height: 100%;
+    flex: 1;}
+  
+    nav > ul > li > a {position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+  
+    li a {text-decoration: none;
+    color: rgb(255, 255, 255);}
+  
+    ul{
+      font-weight: bold;
+    }
+
+    .sous-menu {margin-top: var(--hauteur-menu);
+    width: 100%;
+    text-align: left;
+    background-color: rgb(169, 169, 169);
+    border-radius: 2px;
+    overflow: hidden;
+    max-height: 0;}
+  
+    .sous-menu > li > a {height: 50px;
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;}
+  
+    nav > ul > li:hover > a{color: #3300ff;
+      text-shadow: rgb(0, 0, 0) 2px 2px;}
+  
+    .sous-menu > li:hover {background-color: rgb(0, 0, 0);
+      text-shadow: rgb(0, 0, 0) 2px 2px;
+   }
+ 
+    .sous-menu > li:hover > a {color: #ffffff;}
+  
+    @keyframes SousMenu {
+      100% {
+      max-height: 50em;
+    }
+  }
+  
+  .menu-deroulant:hover > .sous-menu {animation: SousMenu 1s forwards;}
+  
+  h5{
+    font-size: 600%;
+    color: white;
+    text-shadow: rgb(255, 0, 0) 7px 4px ;
+    border-style:outset;
+    margin-left:20%;
+     margin-right:20%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  p{
+    padding-left:2%;
+    padding-right:2%;
+  }
+
+  h0{
+    padding-left: 4%;
+  }
+  h4{
+    float: right;
+    padding-right: 4%;
+    padding-bottom: 4%;
+  }
+  
+  .page{
+    background: rgb(101,255,254);
+    background: radial-gradient(circle, rgba(101,255,254,1) 0%, rgba(110,209,255,1) 26%, rgba(50,92,255,1) 77%, rgba(112,104,255,1) 100%); 
+    text-shadow: rgb(255, 201, 201) 1.5px 1.5px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size:larger;
+    font-weight: 600;
+  }
+  img{
+    border-radius: 25px;
+    border: solid;
+    border-color: white;
+  }
+
+  .top{
+    padding: 4%;
+  }
+
+  h1{
+    float:left;
+    background-color:  rgb(60, 60, 60);
+    padding-top: 5px;
+    padding-right: 8px;
+  }
+  h2{
+    padding-left: 4%;
+
+  }
+  h3{
+    float: right;
+    padding-right: 4%;
+  }
+  .texte_inventeur-ski{
+    padding-right: 44%;
+    padding-top: 2%;
+  }
+.champitext{
+  text-align: center;
+}
+
+  h6{
+  padding-left: 34%;
+}
+h5 > img{
+  border-style: none;
+}
+
+article{
+  display: flex;
+  padding-left: 2%;
+  padding-bottom: 3px;
+}
+h7{
+  padding-top: 1.5%;
+  padding-left: 1%;
+  padding-right: 2%;
+  text-align: justify;
+}
+
+h8{
+  display: flex;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+h9{
+  padding-top: 2%;
+  padding-left: 1%;
+}
+h10{
+  float: right;
+  padding-right: 10%;
+}
+.souspage{
+  background: rgb(0,255,247);
+  background: linear-gradient(0deg, rgba(0,255,247,1) 0%, rgba(66,140,240,1) 48%, rgb(92, 125, 255) 77%, rgb(102, 94, 255) 100%); 
+  text-shadow: rgb(255, 201, 201) 1.5px 1.5px;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size:larger;
+  font-weight: 600;
+}
+.randtext {
+  padding-left:2%;
+  padding-right:49%;
+}
+
+h11{
+  float: right;
+  padding-right: 5%;
+  padding-top: 12%;
+}
+
+.alpin > p {
+  padding-bottom: 7%;
+}
+.alpintexte > p {
+  text-align:justify;
+  padding-top: 3%;
+}
+h12{
+  padding-left: 30%;
+  padding-right: 28%;
+}
+h13{
+  float: right;
+  padding-right: 5%;
+  padding-top: 12%;
+}
+.fondtext{
+  padding-left:2%;
+  padding-right: 45%;
+
+}
+.piautext{
+padding-right: 49%;
+padding-left: 2%;
+
+}
+h14{
+float: right;
+padding-right: 5%;
+}
+.numtext{
+  text-align: center;
+}
+h15{
+  float:right;
+  padding-left: 4%;
+  padding-right: 5%;
+}
