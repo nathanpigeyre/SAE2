@@ -118,6 +118,7 @@
   }
   h2{
     padding-left: 4%;
+    padding-top: 5%;
 
   }
   h3{
@@ -128,10 +129,16 @@
     padding-right: 44%;
     padding-top: 2%;
   }
+  .champi{
+    padding-top: 1%;
+    padding-bottom: 7%;
+  }
 .champitext{
   text-align: center;
 }
-
+.médaille{
+  padding-top: 1%;
+}
   h6{
   padding-left: 34%;
 }
@@ -173,6 +180,9 @@ h10{
   font-size:larger;
   font-weight: 600;
 }
+.randonnée{
+  padding-bottom: 4%;
+}
 .randtext {
   padding-left:2%;
   padding-right:49%;
@@ -200,10 +210,16 @@ h13{
   padding-right: 5%;
   padding-top: 12%;
 }
+.fond{
+  padding-bottom: 5%;
+}
 .fondtext{
   padding-left:2%;
   padding-right: 45%;
 
+}
+.piau{
+  padding-bottom: 9%;
 }
 .piautext{
 padding-right: 49%;
@@ -213,6 +229,9 @@ padding-left: 2%;
 h14{
 float: right;
 padding-right: 5%;
+}
+.skimoi{
+  padding-bottom: 9%;
 }
 .numtext{
   text-align: center;
